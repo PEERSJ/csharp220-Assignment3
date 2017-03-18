@@ -13,8 +13,8 @@
         <TextBox x:Name="uxURL" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" 
               VerticalAlignment="Top" Width="290" Text="Enter a URL address here" />
         <TextBlock>
-            <Hyperlink x:Name="uxNavigator" NavigateUri="http://www.google.com" 
-                  RequestNavigate="uxNavigator_RequestNavigate">Google.com</Hyperlink>
+            <!--<Hyperlink x:Name="uxNavigator" NavigateUri="http://www.google.com" 
+                  RequestNavigate="uxNavigator_RequestNavigate">Google.com</Hyperlink>-->
         </TextBlock>
         <Button x:Name="uxGoButton" Content="Go" Click="uxGoButton_Click"/>
 

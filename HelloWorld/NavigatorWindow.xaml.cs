@@ -25,17 +25,18 @@ namespace HelloWorld
             InitializeComponent();
         }
 
-        //private void uxURL_TextChanged(object sender, TextChangedEventArgs e)
-        //{
-        //    // Convert the Uri into a string
-        //    var fileName = e.Uri.AbsoluteUri;
+        private void uxURL_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // Convert the Uri into a string
+            //var fileName = e.Uri.AbsoluteUri;
+            string fileName = "http://www.google.com";
 
-        //    // Pass the fileName to the helper class
-        //    var processStartInfo = new ProcessStartInfo(fileName);
+            // Pass the fileName to the helper class
+            var processStartInfo = new ProcessStartInfo(fileName);
 
-        //    // Start a new process  (opens a new browswer window using the filename value for the URL address)
-        //    Process.Start(processStartInfo);
-        //}
+            // Start a new process  (opens a new browswer window using the filename value for the URL address)
+            Process.Start(processStartInfo);
+        }
 
         private void uxGoButton_Click(object sender, RoutedEventArgs e)
         {

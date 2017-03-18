@@ -78,9 +78,6 @@
     <Compile Include="MenuWindow.xaml.cs">
       <DependentUpon>MenuWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NavigatorWindow.xaml.cs">
-      <DependentUpon>NavigatorWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Sample.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -130,10 +127,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MenuWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="NavigatorWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
