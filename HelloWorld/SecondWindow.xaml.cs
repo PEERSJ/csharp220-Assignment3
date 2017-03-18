@@ -13,6 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.ComponentModel;
 
+//
+//Jeff Peerson    CSharp-220    Assignment #3   Sorting ListView Columns  
+// 
 
 namespace HelloWorld
 {
